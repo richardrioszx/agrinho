@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrinho Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🌱 Agrinho Sustentável</h1>
+        <p>Cuidando do campo e preservando o futuro.</p>
+    </header>
+
+    <section class="sobre">
+        <h2>Sustentabilidade no Campo</h2>
+        <p>
+            A sustentabilidade na agricultura busca produzir alimentos de forma
+            eficiente, reduzindo desperdícios e preservando recursos naturais.
+            O uso consciente da água é fundamental para garantir colheitas
+            saudáveis e proteger o meio ambiente.
+        </p>
+    </section>
+
+    <section class="calculadora">
+        <h2>💧 Calculadora de Água para Plantação de Milho</h2>
+
+        <label for="area">
+            Área plantada (hectares):
+        </label>
+        <input type="number" id="area" placeholder="Ex: 10">
+
+        <label for="consumo">
+            Consumo de água por hectare (litros/dia):
+        </label>
+        <input type="number" id="consumo" placeholder="Ex: 6000">
+
+        <button onclick="calcularAgua()">
+            Calcular
+        </button>
+
+        <div id="resultado"></div>
+    </section>
+
+    <footer>
+        <p>Projeto Agrinho Sustentável 2025 🌽</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
